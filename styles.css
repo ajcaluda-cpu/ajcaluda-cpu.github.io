@@ -5,9 +5,17 @@
 body {
   margin: 0;
   font-family: 'Source Sans 3', sans-serif;
-  background: #f6f5f0;
-  color: #222;
-  line-height: 1.6;
+
+  background:
+    linear-gradient(
+      rgba(255,255,255,0.90),
+      rgba(255,255,255,0.90)
+    ),
+    url('row in the river.jpg');
+
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 h1,
