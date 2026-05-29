@@ -4,10 +4,16 @@
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   background: #f6f5f0;
   color: #222;
   line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Cormorant Garamond', serif;
 }
 
 /* HEADER */
@@ -16,17 +22,20 @@ body {
   background: #2d533f;
   color: white;
   text-align: center;
-  padding: 45px 20px;
+  padding: 70px 20px;
 }
 
 .site-header h1 {
   margin: 0;
-  font-size: 2.4rem;
+  font-size: 3.5rem;
+  letter-spacing: 1px;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .site-header p {
-  margin-top: 10px;
-  font-size: 1rem;
+  margin-top: 12px;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
 }
 
 /* NAVIGATION */
